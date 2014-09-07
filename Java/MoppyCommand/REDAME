@@ -1,0 +1,11 @@
+Compile the program executing the following command:
+make
+
+You can execute the program using the following command:
+
+java -cp "lib/MoppyLib-1.0.jar:lib/RXTXcomm.jar:.:/home/alvaro/Descargas/commons-cli-1.2/commons-cli-1.2.jar" -Djava.library.path="/usr/lib/jni/" moppydesk.MainCommandLine -c 1:/dev/ttyUSB0 -c 2:/dev/ttyUSB0 -c 3:/dev/ttyUSB0 -i "/home/alvaro/Descargas/MoppyDesk/samplesongs/dm_fever.mid"
+
+Change the parameters -c and -i to your owns
+If you are using windows, you may change the -Djava.library.path parameter
+
+Enjoy

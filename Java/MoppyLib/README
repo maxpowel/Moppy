@@ -1,0 +1,4 @@
+If you have maven installed, just execute:
+mvn package
+
+Maven will download every dependency, compile all java files and place the final jar in the directory "target". Check MoppyCommandLine for a basic example use of this library.
