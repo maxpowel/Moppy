@@ -42,10 +42,10 @@ public class MoppyPlayerOutput implements MoppyReceiver {
      */
     private int[] currentPeriod = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     
-    MoppyCOMBridge mb;
+    MoppyBridge mb;
     SerialPort com;
 
-    public MoppyPlayerOutput(MoppyCOMBridge newMb) {
+    public MoppyPlayerOutput(MoppyBridge newMb) {
         mb = newMb;
     }
 

@@ -16,7 +16,7 @@ import java.util.logging.Logger;
  *
  * @author Sammy1Am
  */
-public class MoppyCOMBridge {
+public class MoppyCOMBridge implements MoppyBridge{
 
     static int FIRST_PIN = 2;
     static int MAX_PIN = 17;
