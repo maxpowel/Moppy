@@ -49,6 +49,17 @@ Configuration and use
 - Click "Start" to start playback (if all goes well).  
 - The Stop/Reset button will stop playback and reset the drives.  Pressing "Start" again will resume from where the sequencer left off.  You will need to reload the MIDI to start from the beginning.
 
+Notes for Linux users
+---------------------
+If you want to run the netbeans proyect, you have to change the run configuration.
+Right click on proyect -> Properties -> Run -> and replace VM options for "-Djava.library.path="/usr/lib/jni/"
+This change allows your system to find the system libraries of RXTXcomm.
+
+Build your custom program from scratch
+--------------------------------------
+Maybe you can build your own application (for example for your raspberry, beablebone, your web server or whatever). Then you can import MoppyLib. You can find a basic example application called MoppyCommand
+in the Java directory of the project.
+
 MIDI file information and guidelines
 ------------------------------------
 - MIDI files should have one MIDI channel for each controller pin on the Arduino.  Channel 1 will be sent to pin2, channel 2 to pin4, &c.
